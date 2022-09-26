@@ -4,7 +4,7 @@
 #
 Name     : pypi-pygments
 Version  : 2.13.0
-Release  : 93
+Release  : 94
 URL      : https://files.pythonhosted.org/packages/e0/ef/5905cd3642f2337d44143529c941cc3a02e5af16f0f65f81cbef7af452bb/Pygments-2.13.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/e0/ef/5905cd3642f2337d44143529c941cc3a02e5af16f0f65f81cbef7af452bb/Pygments-2.13.0.tar.gz
 Summary  : Pygments is a syntax highlighting package written in Python.
@@ -15,9 +15,6 @@ Requires: pypi-pygments-license = %{version}-%{release}
 Requires: pypi-pygments-python = %{version}-%{release}
 Requires: pypi-pygments-python3 = %{version}-%{release}
 BuildRequires : buildreq-distutils3
-BuildRequires : buildreq-meson
-BuildRequires : buildreq-qmake
-BuildRequires : pypi(nose)
 
 %description
 Welcome to Pygments
@@ -74,7 +71,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1660668070
+export SOURCE_DATE_EPOCH=1664210185
 export GCC_IGNORE_WERROR=1
 export CFLAGS="$CFLAGS -fno-lto "
 export FCFLAGS="$FFLAGS -fno-lto "
