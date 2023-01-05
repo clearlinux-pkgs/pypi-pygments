@@ -4,7 +4,7 @@
 #
 Name     : pypi-pygments
 Version  : 2.14.0
-Release  : 97
+Release  : 98
 URL      : https://files.pythonhosted.org/packages/da/6a/c427c06913204e24de28de5300d3f0e809933f376e0b7df95194b2bb3f71/Pygments-2.14.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/da/6a/c427c06913204e24de28de5300d3f0e809933f376e0b7df95194b2bb3f71/Pygments-2.14.0.tar.gz
 Summary  : Pygments is a syntax highlighting package written in Python.
