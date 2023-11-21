@@ -6,10 +6,10 @@
 # autospec commit: e661f3a
 #
 Name     : pypi-pygments
-Version  : 2.17.1
-Release  : 103
-URL      : https://files.pythonhosted.org/packages/22/04/097cdb7d5c6faee58e31a8a2b63cba2222a52066f734b3fdc713c6f40575/pygments-2.17.1.tar.gz
-Source0  : https://files.pythonhosted.org/packages/22/04/097cdb7d5c6faee58e31a8a2b63cba2222a52066f734b3fdc713c6f40575/pygments-2.17.1.tar.gz
+Version  : 2.17.2
+Release  : 104
+URL      : https://files.pythonhosted.org/packages/55/59/8bccf4157baf25e4aa5a0bb7fa3ba8600907de105ebc22b0c78cfbf6f565/pygments-2.17.2.tar.gz
+Source0  : https://files.pythonhosted.org/packages/55/59/8bccf4157baf25e4aa5a0bb7fa3ba8600907de105ebc22b0c78cfbf6f565/pygments-2.17.2.tar.gz
 Summary  : Pygments is a syntax highlighting package written in Python.
 Group    : Development/Tools
 License  : BSD-2-Clause
@@ -74,10 +74,10 @@ python3 components for the pypi-pygments package.
 
 
 %prep
-%setup -q -n pygments-2.17.1
-cd %{_builddir}/pygments-2.17.1
+%setup -q -n pygments-2.17.2
+cd %{_builddir}/pygments-2.17.2
 pushd ..
-cp -a pygments-2.17.1 buildavx2
+cp -a pygments-2.17.2 buildavx2
 popd
 
 %build
@@ -85,7 +85,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1700442517
+export SOURCE_DATE_EPOCH=1700610887
 export GCC_IGNORE_WERROR=1
 CLEAR_INTERMEDIATE_CFLAGS="$CLEAR_INTERMEDIATE_CFLAGS -fdebug-types-section -femit-struct-debug-baseonly -fno-lto -g1 -gno-column-info -gno-variable-location-views -gz=zstd "
 CLEAR_INTERMEDIATE_FCFLAGS="$CLEAR_INTERMEDIATE_FFLAGS -fdebug-types-section -femit-struct-debug-baseonly -fno-lto -g1 -gno-column-info -gno-variable-location-views -gz=zstd "
